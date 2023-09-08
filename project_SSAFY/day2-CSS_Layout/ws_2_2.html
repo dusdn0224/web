@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 1000px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+			float: left;
+    }
+		h2 {
+			float: right;
+			margin-right: 30px;
+      /* 실행결과2는 아래 주석 해제하면 됩니다. */
+      /* margin-top: 164px; */
+		}
+    .nomagi {
+      margin: 0px;
+    }
+    .middle {
+      text-align: center;
+      width: 360px;
+      display: inline-block;
+    }
+    .pe {
+      float: right;
+      display: inline-block;
+      margin-right: 50px;
+    }
+    .des {
+      width: 95%;
+      margin: 0px auto;
+      border-top: 1px solid gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="margin-bottom: 30px;">
+      <img src="profile.jpg" alt="Profile Image">
+      <h2>Company Name</h2>
+    </div>
+    <div>
+      <div class="middle">
+        <h3 class="nomagi">한글 이름</h3>
+        <h4 class="nomagi">English Name</h4>
+      </div>
+      <div class="pe">
+        <p class="nomagi">Phone Number</p>
+        <p class="nomagi">Email</p>
+      </div>
+    </div>
+    <hr>
+    <div class="des">
+      <p style="float: right; margin-top: 0px; margin-bottom: 30px;">description</p>
+    </div>
+  </div>
+</body>
+</html>
