@@ -1,0 +1,35 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Orbit', sans-serif;
+}
+
+#logos {
+  background-color: lightblue;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+
+.bg {
+  background-color: lightblue;
+}
+
+@media (max-width: 768px) {
+  #logos {
+    display: none !important;
+  }
+}
+
+.intro {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+}
+
+#introduce {
+  display: inline-block;
+}
+
+.card-h {
+  height: 180px;
+}
